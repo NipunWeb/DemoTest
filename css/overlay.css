@@ -1,0 +1,76 @@
+.overlay {
+         height: 100%;
+         width: 0;
+         position: fixed;
+          z-index: 111111111111;
+         /*     top: 20%;
+         right: 100px; */
+         background-color: #fff;
+        
+         /* opacity: 0.9; */
+        /*  background-color: rgba(1,1,1, 0.9); */
+       overflow-x: hidden ;
+       overflow-y: hidden;
+         transition: 0.5s;
+
+       } 
+.leftArtPosition{
+  left: 0;
+  bottom: 0;
+  position: absolute;
+}
+.rightArtPosition{
+  right: 0;
+  bottom: 0;
+  position: absolute;
+}
+
+       #spaN{
+          position: absolute;
+          top: 20%;
+          right: 50px;
+          line-height: 2;
+          z-index: 10000000000; 
+      }
+
+     .overlay-content {
+        position: relative;
+        top: 15%;
+        width: 100%;
+        text-align: center;
+        margin-top: 30px;
+      }
+
+    .overlay a {
+      padding: 14px;
+      text-decoration: none;
+      font-size: 26px;
+      color: #818181;
+      display: block;
+      transition: 0.3s;
+    }
+
+
+ /* .overlay img{
+  margin-bottom: -30px;
+ } */
+   .overlay a:hover, .overlay a:focus {
+      color: #fdb414;
+    }
+
+   .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+   }
+
+   @media screen and (max-height: 450px) {
+     .overlay a {font-size: 20px}
+     .overlay .closebtn {
+       font-size: 40px;
+       top: 15px;
+       right: 35px;
+      }
+  }
+

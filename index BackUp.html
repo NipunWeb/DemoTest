@@ -1,0 +1,1181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="Seemobd, Seemo, Smart doorbell, wifi doorbell , Home automation, IOT ,Security Camera, Ip Camera, IP tv, intelligent living, Bangladesh Security Camera, Dhaka Security Camera, Cloud Storage, Night Vision, Motion Vision , Motion Sensor, Motion Alerts,Motion Notification">
+    <title>SEEMO – Intelligent Living</title>
+   
+    <link rel="stylesheet" href="css/c.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/overlay.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+   <!-- <link rel="stylesheet" href="css/reset.css">-->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="icon" type="image/png" href="img/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
+    <script type="text/javascript" src="js/jquery.fullPage.js"></script>
+   
+  
+  <script type="text/javascript">
+
+       $(document).ready(function() {
+       
+          if($(window).width() > 1200) {
+
+               $('#fullpage').fullpage({
+                
+                  navigation: true,
+                  navigationPosition: 'right'
+                 
+               });
+               
+               $('.scroll-down').click(function(event) {
+    event.preventDefault();
+    $.fn.fullpage.moveSectionDown();
+  });
+          } 
+
+       })
+  </script>
+
+ <style type="">
+
+ .navModified{
+  height: 80px;
+ }
+
+   .textAlign{
+    text-align: right;
+   }
+
+   .textAlignLeft{
+    text-align: left;
+   }
+          
+   .callTextHotline, .callTextHotlineNo{
+    font-size: 20px !important;
+   }
+  
+    .scroll-down {
+        width: 80px;
+        height: 80px;
+        position: absolute; 
+        bottom: 20px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        z-index: 0; 
+     }
+
+    .main-top .scroll-down:before {
+      bottom: 20px;
+      width: 50px;
+      height: 50px;
+    }
+
+    .main-top .scroll-down:before, .main-top .scroll-down:after {
+        content: '';
+        display: block;
+        border-bottom: 2px solid #FF781E;
+        border-right: 2px solid #FF781E;
+        margin: auto;
+        position: absolute;
+        left: 0;
+        right: 0;
+        -webkit-transform: rotate(45deg);
+        -moz-transform: rotate(45deg);
+        -o-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        transform: rotate(45deg);
+      }
+
+      .main-top .scroll-down:before {
+        -webkit-animation: scrollDown 0.5s infinite alternate;
+        -moz-animation: scrollDown 0.5s infinite alternate;
+        -o-animation: scrollDown 0.5s infinite alternate;
+        -ms-animation: scrollDown 0.5s infinite alternate;
+        animation: scrollDown 0.5s infinite alternate;
+      }
+
+      .main-top .scroll-down:after {
+        width: 30px;
+        height: 30px;
+        bottom: 30px;
+        -webkit-animation: scrollDown 0.5s infinite alternate;
+        -moz-animation: scrollDown 0.5s infinite alternate;
+        -o-animation: scrollDown 0.5s infinite alternate;
+        -ms-animation: scrollDown 0.5s infinite alternate;
+        animation: scrollDown 0.5s infinite alternate;
+
+      }
+
+      @keyframes scrollDown {
+        0% {
+          opacity: 1;
+          -webkit-transform: rotate(45deg) translate(0px);
+          -ms-transform: rotate(45deg) translate(0px);
+          transform: rotate(45deg) translate(0px);
+        }
+
+        100% {
+          opacity: 0.5;
+          -webkit-transform: rotate(45deg) translate(3px, 3px);
+          -ms-transform: rotate(45deg) translate(3px, 3px);
+          transform: rotate(45deg) translate(3px, 3px);
+        }
+      }
+
+      .scrollDown {
+        -webkit-animation-name: scrollDown;
+        animation-name: scrollDown;
+
+      }
+
+
+        
+
+        .post-content{
+          position: absolute;
+          top: 40%;
+          right: 50px;
+          line-height: 2;
+      
+        }
+       
+        .customMenu{
+        
+     border-radius: 250px;
+         font-size: 18px;
+        
+
+        }
+
+       .nav > li > a:hover, .nav > li > a:focus {
+         text-decoration: none;
+         border: 1px solid #fdb414;
+       }
+        .right_art img {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+        }
+
+
+       .left_art img{
+          position: absolute;
+          bottom: 0px;
+          left: 0px; 
+          margin-left: 0px;
+        }          
+
+      .clear { clear: both; }
+
+       #triangle-left { 
+          width: 0; 
+          height: 0; 
+          border-top: 25px solid transparent; 
+          border-right: 50px solid #fff; 
+          border-bottom: 25px solid transparent; 
+        }
+
+        
+       #triangle-right { 
+            width: 0; 
+            height: 0; 
+            border-top: 25px solid transparent;
+            border-left: 50px solid #fff;
+            border-bottom: 25px solid transparent;
+         }
+      </style>
+
+      <style> 
+        
+        @media only screen and (max-width: 768px)  {
+             #triangle-left {
+              display: none;
+             }
+             #triangle-left_one{
+              display: none !important;
+              border-right: 50px solid transparent;
+             }
+             #triangle-right{
+              display: none;
+             }
+             .callTextHotline, .callTextHotlineNo{
+              font-size: 14px !important;
+             }
+             .textAlign{
+            text-align: justify;
+          
+             }
+             .textAlignLeft{
+               text-align: justify;
+             }
+
+             .navModified{
+              height: 70px;
+             }
+          
+        }
+
+
+
+      </style>
+      
+      <style>
+
+       @media only screen and (min-width: 1100px) {
+   
+         .modalBody{padding: 40px;
+          border-radius: 25px;}
+      }
+          
+      @media only screen and (max-width: 1217px) {
+      .spanNav{
+         display : none;
+       }
+
+       .headerText{
+     font-size: 35px;
+     color: #2c3e50;
+  }
+
+          }
+
+      
+      </style>
+      
+   
+<style type="">
+  #header, #footer{
+  position: relative !important; 
+
+    display:block;
+    width: 100%;
+    background: #333;
+    z-index:9;
+    text-align:center;
+    color: #f2f2f2;
+    padding-bottom:  0px;
+    padding-top: 0px;
+  }
+
+  </style>
+
+
+  <style type="text/css">
+.modal {
+  text-align: center;
+  padding: 0!important;
+}
+
+.modal:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -4px;
+}
+
+.modal-dialog {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+}
+
+
+  </style>
+
+<style type="">
+/* .fp-viewing-6 #fp-nav   { display: none; } */
+</style>
+  
+
+</head>
+
+<body class="fonts" style="margin: 0;">
+
+  <div id="fullpage" >
+    
+    <section  id ="element1" style="background-color: #e9e9e9; height: 100vh;" class="section">
+
+       <nav class=" navbar-default navbar-fixed-top  navModified" 
+            style="background-color: #e9e9e9; border-bottom: 1px solid #d1d1d1;"  id ="">
+      
+         <div class="container-fluid">
+
+           <div class="col-md-6">
+
+             <div class="navbar-header" style="top: 0;">
+
+               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target=" #bs-example-navbar-collapse-1" aria-expanded="false">
+
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="index.html">
+                  <img id="logo"  class="logoPosition img-responsive" src="img/logo_top.png" alt="">
+              </a>
+
+           </div>
+
+         </div>
+
+         <div class="col-md-6">
+
+            <div class="collapse navbar-collapse" id="" >
+
+              <ul class="" style="display: none;" >
+
+                <li class="">
+                  
+                  <a class="" href="index.html" >HOME 
+                      <span class="sr-only">(current)</span>
+                  </a>
+
+                </li>
+
+                <li>
+                    <a class="" href="howTo.html" >HOW TO </a>
+                </li>
+
+                <li>
+
+                  <a class="" href="app.html">APP</a>
+
+                </li>
+
+                <li>
+                  <a class="individual_menu_item" href="buyModified.html">BUY</a>
+                </li>
+
+                <li>
+                   <a id="support_menu_item" href="support.html" class="">SUPPORT</a>
+                </li>
+              
+              </ul>
+
+           </div>
+            
+         </div>
+
+        </div>
+
+      </nav>
+
+      <div class="row">
+       
+       <div id="main-top" class="main-top ">
+                    
+          <div class="main-content">
+                        
+            <div class="container content">
+                            
+              <div class="row rowSeven" style="">
+               
+               <div class="col-sm-6">
+
+                  <div class="container-fluid">
+
+                    
+                     
+                    <div class="col-sm-10 ">
+
+                      <div class="doorBellDiv">
+
+                          <div class="doorbell " style=" color: #888888 !important; ">Smart Video
+                              <span class=" doorBell" style=" ">Doorbell </span>
+                          </div>
+                      </div>
+                       
+                       <div class=" doorbellLiving doorbellLivingDiv" style=" color: #888888 !important;  ">Introducing you to the world of <br/> </div>
+                          <div class="intelligentDiv" > <span style="color: #1665c1; ">Intelligent Living </span> </div>
+                        
+                          <br/>
+                      
+                       <div class="">  <button type="button" class="fill center-block btnDiv btnModified" style="outline: 0;" data-toggle="modal" data-target="#myModal" onclick="showDivUpdate()" ><b>Buy Now!! </b></button></div>
+
+                                        </div>
+                          <div class="col-sm-2"> </div>
+                   </div>
+
+                </div>
+
+                <div class="col-sm-offset-1 col-sm-5">
+
+                  <img src="img/Tdevices.png" class="img-responsive seemoImg center-block"  style="" />
+
+                </div>
+
+              </div>
+
+              <div class="row text-center " style="">
+                                <a href="#section1" class="scroll-down"></a>
+              </div>
+
+          </div>
+
+        </div>
+
+       </div>
+            
+    </div>
+        
+ </section> 
+
+
+ <section id="section1"  class="section " style="">
+        
+  <div class="container-fluid divBottom" style="position: relative;  ">
+
+     <div class="row">
+     <div id="myNav" class="overlay" style="">
+              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+              <div class="overlay-content">
+
+                  <img src="img/logo-seemo.png"  class="center-block"  style="margin-bottom: 20px;" />
+                    <a href="index.html">Home</a>
+                     <a href="#">How To</a>
+                    <a href="#">App</a>
+                    <a href="#">Buy</a>
+                    <a href="#">Support</a>
+
+                    <div class="text-center" style="margin-top: 20px;"> 
+           
+        <div class="col-xs-6">
+          
+     <a href="https://play.google.com/store/apps/details?id=seemo.btracsolutions.doorbell">
+          <img src="img/1google-play-badge.png"  class="img-responsive pull-right"  style=" margin-right: 10px;" /> 
+      </a>
+        </div>
+        <div class="col-xs-6">
+
+        <a href="https://itunes.apple.com/us/app/seemo-smart-doorbell/id1130887968?mt=8&amp;ign-mpt=uo%3D4">
+             
+           <img src="img/app-store-badge.png"  class="img-responsive"  style="" /> 
+          </a>
+         </div>
+       </div>
+                </div>
+
+                
+                <img src="img/left_art.png"  class="center-block "  style="left: 0; position: absolute; bottom: 0; " />
+                <img src="img/right_art.png"  class="rightArtPosition center-block "  style="right: 0; position: absolute; bottom: 0;" />
+              
+            
+     </div>
+       <span class="spanNav" style="font-size:30px;cursor:pointer; float: right; margin-right: 25px;z-index: 1000232023;" 
+        onclick="openNav()">&#9776;  
+       </span>
+
+       <div class="background-content">
+          <div class="col-xs-12 col-sm-6" style="">
+
+              <div class="section-primary-image" style="">
+                
+          <img  src="img/111.jpg" class="section-bg-cover-image " style=" position: relative;" />
+          <div id="triangle-left_one" style="position: absolute; right: 0; top: 50%;"></div>
+
+              </div>
+
+          </div>
+
+          <div class="col-xs-12 col-sm-6" >
+
+          
+                    
+              <div class="section-primary-message" style="">
+
+                 
+           
+                
+
+                  <table class="pull-left" style="margin-left: 30px;">
+    
+    
+      <tr>
+        <td style="float: left;   border: none;"> <img src="img/floating-section/2-Way-Communication.png"  class="img-responsive"  style=""></td>
+       
+      </tr>
+      <tr>
+        <td > <h2 class="section-primary-message-header headerText" style="color: #435060; float: left; padding-top: 20px; line-height: 1.2; border: none;">Be at home from  <br/> <span style="float: left;  border: none;">
+
+         office,abroad or car </span></h2></td>
+        
+      </tr>
+      <tr>
+        <td style=" border: none; padding-right: 0px; padding-top: 20px; " class="textAlignLeft">
+           <p class="section-primary-message-description  bodyTextRight " 
+        style="color: #788aa1; padding-top: 0px;">
+                   <b class="">   SEEMO smart doorbell allows you to speak with anyone at your front door through a built in speaker and microphone. Be near to your loved ones even when you are miles away.</b>
+            </p>
+                   </td>
+        
+      </tr>
+    
+  </table>
+
+             </div>
+          </div>
+      </div>
+      <div class="right_art">
+        <!--   <img src="img/right_art.png"  class="img-responsive" /> -->
+      </div>
+                
+      <div class="clear"></div>
+
+
+ 
+</div>
+ </div>
+
+</section>
+
+
+
+ <section id="section2" style="" class="section ">
+        
+  <div class="container-fluid divBottom" style="position: relative;">
+
+     <div class="row ">
+
+
+       <div id="myNavTwo" class="overlay" style="">
+              <a href="javascript:void(0)" class="closebtn" onclick="closeNavTwo()">&times;</a>
+              <div class="overlay-content">
+
+                  <img src="img/logo-seemo.png"  class="center-block"  style="margin-bottom: 20px;" />
+                    <a href="index.html">Home</a>
+                     <a href="#">How To</a>
+                    <a href="#">App</a>
+                    <a href="#">Buy</a>
+                    <a href="#">Support</a>
+
+                    <div class="text-center" style="margin-top: 20px;"> 
+           
+        <div class="col-xs-6">
+          
+     <a href="https://play.google.com/store/apps/details?id=seemo.btracsolutions.doorbell">
+          <img src="img/1google-play-badge.png"  class="img-responsive pull-right"  style=" margin-right: 10px;" /> 
+      </a>
+        </div>
+        <div class="col-xs-6">
+
+        <a href="https://itunes.apple.com/us/app/seemo-smart-doorbell/id1130887968?mt=8&amp;ign-mpt=uo%3D4">
+             
+           <img src="img/app-store-badge.png"  class="img-responsive"  style="" /> 
+          </a>
+         </div>
+       </div>
+                </div>
+
+                
+                <img src="img/left_art.png"  class="center-block "  style="left: 0; position: absolute; bottom: 0;" />
+                <img src="img/right_art.png"  class="center-block "  style="right: 0; position: absolute; bottom: 0;" />
+              
+            
+     </div>     
+      
+
+      <div class=" col-sm-6 col-sm-push-6 " style="">
+     <span class="spanNav"
+            style="font-size: 30px;cursor: pointer;position: absolute;right: 25px;color: #333333 ; z-index: 11111;"
+          
+          
+              onclick="openNavTwo()">&#9776;  </span>
+
+
+        
+        <div class="section-primary-image " style="position: relative;">
+        
+        
+                
+            <img  src="img/02T.jpg" class="section-bg-cover-image" style="z-index:-1; " />
+            <div id="triangle-right" style="position: absolute; left: 0; top: 50%;"></div>
+        
+          
+         
+             
+        
+        </div>
+
+      </div>
+
+      <div class="col-sm-6 col-sm-pull-6" >
+                    
+        <div class="section-primary-message " style="">
+
+        <table class="pull-right" style="margin-right: 60px;">
+    
+    
+      <tr>
+        <td style="float: right;   border: none;"  class="motionImg"> <img src="img/floating-section/Motion-Sensor.png"  class="img-responsive "  style=""></td>
+       
+      </tr>
+      <tr>
+        <td style="text-align: right;"> <h2 class="section-primary-message-header headerText" style="color: #435060; text-align: right; padding-top: 20px; line-height: 1.2; border: none;">Where there is motion<br/> <span style="float: right;  border: none ;">
+
+         there is Seemo </span></h2></td>
+        
+      </tr>
+      <tr>
+        <td style=" border: none; padding-right: 0px; padding-top: 20px;  " class="textAlign"> <p class="section-primary-message-description bodyText bodyTextDescription" style="color: #788aa1; ">
+                   <b class="">   With the built-in motion sensor, SEEMO always knows what's happening. Any unusual movements around your house? SEEMO will notify you immediately.With SEEMO, you will always be close to home. </b>
+            </p>
+                   </td>
+        
+      </tr>
+    
+  </table>
+           
+         
+          
+          
+                        
+             
+                
+           
+
+        </div>
+
+      </div>
+
+
+  
+    </div>
+
+
+    
+  </div>
+
+</section>
+
+
+ <section id="section3" style="" class="section">
+        
+  <div class="container-fluid divBottom" style="position: relative; ">
+
+     <div class="row">
+
+      <div id="myNav3" class="overlay" style="">
+              <a href="javascript:void(0)" class="closebtn" onclick="closeNav3()">&times;</a>
+              <div class="overlay-content">
+
+                  <img src="img/logo-seemo.png"  class="center-block"  style="margin-bottom: 20px;" />
+                    <a href="index.html">Home</a>
+                     <a href="#">How To</a>
+                    <a href="#">App</a>
+                    <a href="#">Buy</a>
+                    <a href="#">Support</a>
+
+                    <div class="text-center" style="margin-top: 20px;"> 
+           
+        <div class="col-xs-6">
+          
+     <a href="https://play.google.com/store/apps/details?id=seemo.btracsolutions.doorbell">
+          <img src="img/1google-play-badge.png"  class="img-responsive pull-right"  style=" margin-right: 10px;" /> 
+      </a>
+        </div>
+        <div class="col-xs-6">
+
+        <a href="https://itunes.apple.com/us/app/seemo-smart-doorbell/id1130887968?mt=8&amp;ign-mpt=uo%3D4">
+             
+           <img src="img/app-store-badge.png"  class="img-responsive"  style="" /> 
+          </a>
+         </div>
+       </div>
+                </div>
+
+                
+                <img src="img/left_art.png"  class="center-block "  style="left: 0; position: absolute; bottom: 0;" />
+                <img src="img/right_art.png"  class="center-block "  style="right: 0; position: absolute; bottom: 0;" />
+              
+            
+     </div>
+       <span class="spanNav" style="font-size:30px;cursor:pointer; float: right; margin-right: 25px;z-index: 1000232023; color: #333;" 
+        onclick="openNav3()">&#9776;  </span>
+               
+          <div class="col-xs-12 col-sm-6" style="">
+
+              <div class="section-primary-image">
+                
+                  <img  src="img/B03.jpg" class="section-bg-cover-image 
+                  " style=" position: relative; "/>
+                     <div id="triangle-left" style="position: absolute; right: 0; top: 50%;"></div>
+
+
+              </div>
+
+          </div>
+
+          <div class="col-xs-12 col-sm-6" >
+                    
+              <div class="section-primary-message" style="">
+           
+                
+
+                    <table class="pull-left" style="margin-left: 30px;">
+    
+    
+      <tr>
+        <td style="float: left;   border: none;"> <img src="img/floating-section/Wifi-Ready.png"  class="img-responsive"  style=""></td>
+       
+      </tr>
+      <tr>
+        <td > <h2 class="section-primary-message-header headerText" style="color: #435060; float: left; padding-top: 20px; line-height: 1.2; border: none;">
+        Whole family is <br/> <span style="padding-top: 10px;">connected & protected  </span></h2></td>
+        
+      </tr>
+      <tr>
+        <td style=" border: none; padding-right: 0px; padding-top: 20px; " class="textAlignLeft">
+           <p class="section-primary-message-description  bodyTextRight " style="color: #788aa1; padding-top: 0px;">
+                   <b class="">      All you need is a smartphone or a tablet to stay connected as Seemo devices are WiFi enabled. Multiple authorized smartphones and tablets can easily connect with Seemo. </b>
+            </p>
+                   </td>
+        
+      </tr>
+    
+  </table>
+                        
+              </div>
+
+           </div>
+
+     </div>
+
+   
+                
+      <div class="clear"></div>
+
+</div>
+
+</section>
+
+ <section id="section4" style="position: relative;" class="section">
+        
+  <div class="container-fluid divBottom" style="">
+
+     <div class="row ">
+
+       <div id="myNavFour" class="overlay " style="">
+              <a href="javascript:void(0)" class="closebtn" onclick="closeNavFour()">&times;</a>
+              <div class="overlay-content">
+
+                  <img src="img/logo-seemo.png"  class="center-block"  style="margin-bottom: 20px;" />
+                    <a href="index.html">Home</a>
+                     <a href="#">How To</a>
+                    <a href="#">App</a>
+                    <a href="#">Buy</a>
+                    <a href="#">Support</a>
+
+                    <div class="text-center" style="margin-top: 20px;"> 
+           
+        <div class="col-xs-6">
+          
+     <a href="https://play.google.com/store/apps/details?id=seemo.btracsolutions.doorbell">
+          <img src="img/1google-play-badge.png"  class="img-responsive pull-right"  style=" margin-right: 10px;" /> 
+      </a>
+        </div>
+        <div class="col-xs-6">
+
+        <a href="https://itunes.apple.com/us/app/seemo-smart-doorbell/id1130887968?mt=8&amp;ign-mpt=uo%3D4">
+             
+           <img src="img/app-store-badge.png"  class="img-responsive"  style="" /> 
+          </a>
+         </div>
+       </div>
+                </div>
+
+                
+                <img src="img/left_art.png"  class="center-block leftArtPosition"  style="left: 0; position: absolute; bottom: 0;" />
+                <img src="img/right_art.png"  class="center-block rightArtPosition"  style="right: 0; position: absolute; bottom: 0;;" />
+              
+            
+     </div>
+               
+       
+
+        <div class="col-sm-6 col-sm-push-6" style="">
+
+              <div class="section-primary-image">
+
+                   <span 
+            style="font-size: 30px;cursor: pointer;position: absolute;right: 25px;color: #333333 ; z-index: 11111; " class="spanNav"
+          
+          
+              onclick="openNavFour()">&#9776;  </span>
+                
+                  <img  src="img/04M.jpg" class="section-bg-cover-image" style=" position: relative;" />
+                  <div id="triangle-right" style="position: absolute; left: 0; top: 50%;"></div>
+                
+
+              </div>
+
+        </div>
+
+        <div class="col-sm-6 col-sm-pull-6" >
+                    
+              <div class="section-primary-message" style="">
+           
+                    <table class="pull-right" style="margin-right: 60px;">
+    
+    
+      <tr>
+        <td style="float: right;   border: none;"> <img src="img/floating-section/Notification.png"  class="img-responsive"  style=""></td>
+       
+      </tr>
+      <tr>
+        <td > <h2 class="section-primary-message-header headerText" style="color: #435060; float: right; padding-top: 20px; line-height: 1.2; border: none;">
+        Know your guest</h2></td>
+        
+      </tr>
+      <tr>
+        <td style=" border: none; padding-right: 0px; padding-top: 20px;  " class="textAlign"> <p class="section-primary-message-description bodyText bodyTextDescription" style="color: #788aa1; padding-top: 0px;">
+                   <b class="" >     Get instant push notifications on your smartphone or tablet, whenever you have wanted or unwanted guests. </b>
+            </p>
+                   </td>
+        
+      </tr>
+    
+  </table>
+                        
+                     
+                
+                 
+
+              </div>
+
+        </div>
+    
+    </div>
+
+     <div class="left_art">
+        <!--   <img src="img/left_art.png"  class="img-responsive" /> -->
+      </div>
+
+       <div class="clear"></div>
+
+  
+   </div>
+</section>
+
+
+
+ <section id="section5" style="" class="section ">
+        
+  <div class="container-fluid divBottom" style="position: relative; "  >
+
+     <div class="row">
+
+       <div id="myNav5" class="overlay" style="">
+              <a href="javascript:void(0)" class="closebtn" onclick="closeNav5()">&times;</a>
+              <div class="overlay-content">
+
+                  <img src="img/logo-seemo.png"  class="center-block"  style="margin-bottom: 20px;" />
+                    <a href="index.html">Home</a>
+                     <a href="#">How To</a>
+                    <a href="#">App</a>
+                    <a href="#">Buy</a>
+                    <a href="#">Support</a>
+
+                    <div class="text-center" style="margin-top: 20px;"> 
+           
+   <div class="col-xs-6">
+          
+     <a href="https://play.google.com/store/apps/details?id=seemo.btracsolutions.doorbell">
+          <img src="img/1google-play-badge.png"  class="img-responsive pull-right"  style=" margin-right: 10px;" /> 
+      </a>
+        </div>
+        <div class="col-xs-6">
+
+        <a href="https://itunes.apple.com/us/app/seemo-smart-doorbell/id1130887968?mt=8&amp;ign-mpt=uo%3D4">
+             
+           <img src="img/app-store-badge.png"  class="img-responsive"  style="" /> 
+          </a>
+         </div>
+       </div>
+                </div>
+
+                
+                <img src="img/left_art.png"  class="center-block leftArtPosition"  style="left: 0; position: absolute; bottom: 0;" />
+                <img src="img/right_art.png"  class="center-block rightArtPosition"  style="right: 0; position: absolute; bottom: 0;" />
+              
+            
+     </div>
+       <span class="spanNav" style="font-size:30px;cursor:pointer; float: right; margin-right: 25px;z-index: 1000232023; color: #333;" 
+        onclick="openNav5()">&#9776;  </span>
+               
+          <div class="col-xs-12 col-sm-6" style="">
+
+              <div class="section-primary-image">
+                
+                  <img  src="img/05.jpg" class="section-bg-cover-image " style=" position: relative;" />
+                  <div id="triangle-left" style="position: absolute; right: 0; top: 50%;"></div>
+
+              </div>
+
+          </div>
+
+          <div class="col-xs-12 col-sm-6" >
+                    
+              <div class="section-primary-message" style="">
+           
+               
+
+                   <table class="pull-left" style="margin-left: 30px;">
+    
+    
+      <tr>
+        <td style="float: left;   border: none;"> <img src="img/floating-section/Cloud-Storage.png"  class="img-responsive"  style=""></td>
+       
+      </tr>
+      <tr>
+        <td > <h2 class="section-primary-message-header headerText" style="color: #435060; float: left; padding-top: 20px; line-height: 1.2; border: none;">
+        Don’t miss a thing </h2></td>
+        
+      </tr>
+      <tr>
+        <td style=" border: none; padding-right: 0px; padding-top: 20px; " class="textAlignLeft">
+           <p class="section-primary-message-description  bodyTextRight " style="color: #788aa1; padding-top: 0px;">
+              <b class="">  
+                     SEEMO continuously captues images and record videos and saves them to highly secured cloud storage for up to 30 days.You can always check back the status of your home at your home convenience.
+               </b>
+            </p>
+        </td>
+        
+      </tr>
+    
+  </table>
+              </div>
+
+           </div>
+
+      </div>
+
+    
+                
+     <div class="clear"></div>
+
+
+  </div>
+
+</section>
+
+
+
+
+
+
+ <section id="last" style="background-color: #222534;" class="section fp-auto-height" >
+  
+  <div class="container-fluid" style="">
+    <div class="row">
+       <img src="img/logo_bottom.png"  class="center-block img-responsive"  style="margin-top: 50px;" /> 
+    </div>
+
+    <div class="row" style="margin-top: 50px;">
+
+      <div class="col-md-3"> </div>
+      <div class="col-md-6  text-center"> 
+           
+        <div class="col-xs-6">
+        <a href="https://play.google.com/store/apps/details?id=seemo.btracsolutions.doorbell">
+          <img src="img/1google-play-badge.png"  class="img-responsive pull-right"  style=" margin-right: 10px;" /> 
+        </a>
+        </div>
+
+
+        <div class="col-xs-6">
+        <a href="https://itunes.apple.com/us/app/seemo-smart-doorbell/id1130887968?mt=8&amp;ign-mpt=uo%3D4">
+             
+           <img src="img/app-store-badge.png"  class="img-responsive"  style="" /> 
+        </a>
+         </div>
+       </div>
+
+       <div class="col-md-3"> </div>
+
+    </div>
+   
+     <div class="row copyrightText" style="margin-top: 20px;"  >
+      
+     
+         
+            <p class="" style="color: #fdb414; padding-bottom: 20px;"> Hotline : <a href="tel:09638 773366"><span style="color: #fdb414 !important; font-style: normal !important;font-family: arial;"> 09638 773366 </span>  </a> </p>
+      
+    </div>
+</div>
+
+<div class="container-fluid" style="background-color: #222534;">
+
+   <div class="col-md-4"> </div>
+   <div class="col-md-4"> 
+     
+
+    <div class="">
+
+      <div class=" text-center" style=" "> 
+           
+          
+
+           <div class="col-xs-4">
+               <a href="https://www.facebook.com/seemobd">
+               <img src="img/facebook.png"  class="center-block  img-responsive"  
+                 style="float: right;" />
+                </a>
+          </div>
+
+           <div class="col-xs-4"> 
+            <a href="https://twitter.com/search?q=seemobd&src=typd">
+              <img src="img/twitter.png"  class="center-block img-responsive"   /> 
+             </a>
+          </div>
+
+           <div class="col-xs-4">
+               <a href="https://www.instagram.com/seemo_intelligent_living/?hl=en">
+             <img src="img/Instagram.png"  class="center-block  img-responsive"  style="float: left" /> 
+             </a>
+          </div>
+          
+          
+      </div>
+
+  </div>
+
+ </div>
+ 
+ <div class="col-md-4"> </div>
+    
+</div>
+
+<div class="row">
+     <p class="text-center" style="color: #616e76; padding-top: 10px; padding-bottom: 10px;"> Copyright &#169; 2017 SEEMO. All rights reserved. </p> <br/>
+</div>
+
+</section></div>
+
+
+
+
+
+   <section id="welcomediv" style="display: block;  " >
+   
+
+     <div class="container">
+
+        <div class="modal fade" id="myModal" role="dialog" >
+          
+           <div class="modal-dialog modalDialog" style=" " >
+    
+    
+             <div class="modal-content" style="border-radius: 25px;">
+   
+       <div class="modal-body modalBody" style="background-color: #fdb515;">
+              <div class="row">
+                <div class="col-xs-6">
+                  <img src="img/girl-callcenter.png"  class="img-responsive"/>
+                </div>
+                <div class="col-xs-6">
+                  <div style="line-height: 2; padding-top: 20px; ">
+                        <p class="text-center callTextHotline" style="color : #1665c1; " >Call us at 
+                        <br/>
+                         <span  style="color : #1665c1; " class="callTextHotline"> <a href="tel:09638 773366"><b style="font-family: arial">09638 773366</b></a></span> <br/>
+                          <span style="text-align: center; padding-top: 10px; padding-bottom: 10px;"> & </span>  <br/> <span class="callTextHotlineNo">get
+                          <b> 3 months</b> cloud storage for <b>free!</b> </span> </p>
+                      </div>
+                </div>
+              </div>
+        </div>
+        
+  </div>
+  
+</div>
+</div>
+</div>
+
+</section>
+
+<script>
+
+
+  function showDivUpdate() {
+   document.getElementById('welcomediv').style.display = "block";
+   /*document.getElementById('welcomediv').style.height = "300px";*/
+
+
+   /*document.getElementById('floatMenu').style.marginRight="0px";
+*/
+   
+      
+  }
+function openNav() {
+    $('#fullpage').css('zIndex', 101);
+    document.getElementById("myNav").style.width = "100%";
+   
+
+
+}
+
+function closeNav() {
+    document.getElementById("myNav").style.width = "0%";
+    $('#fullpage').css('zIndex', 1);
+}
+
+function openNavTwo() {
+  $('#fullpage').css('zIndex', 101);
+    document.getElementById("myNavTwo").style.width = "100%";
+}
+
+function closeNavTwo() {
+    document.getElementById("myNavTwo").style.width = "0%";
+    $('#fullpage').css('zIndex', 1);
+}
+function openNav3() {
+  $('#fullpage').css('zIndex', 101);
+    document.getElementById("myNav3").style.width = "100%";
+}
+
+function closeNav3() {
+    document.getElementById("myNav3").style.width = "0%";
+    $('#fullpage').css('zIndex', 1);
+}
+
+function openNav5() {
+  $('#fullpage').css('zIndex', 101);
+    document.getElementById("myNav5").style.width = "100%";
+}
+
+function closeNav5() {
+    document.getElementById("myNav5").style.width = "0%";
+    $('#fullpage').css('zIndex', 1);
+}
+
+function openNavFour() {
+  $('#fullpage').css('zIndex', 101);
+    document.getElementById("myNavFour").style.width = "100%";
+}
+
+function closeNavFour() {
+    document.getElementById("myNavFour").style.width = "0%";
+    $('#fullpage').css('zIndex', 1);
+}
+
+</script>
+
+
+
+
+</body>
+
+</html>
